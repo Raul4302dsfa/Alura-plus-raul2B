@@ -16,10 +16,12 @@ body {
     font-size: 16px;
     font-weight: 400;
 }
-section{
+#section{
     background-image: url("Background.png");
     background-repeat: no-repeat;
     background-size: contain;
+    align-items: center;
+    text-align: center;
 }
 .container-principal {
     height: 100vh;
@@ -32,8 +34,51 @@ section{
     padding: 1em;
     color: var(--branco-principal);
     display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
 }
 .botaosecundario{
     background-color: transparent;
     border: 2px solid var(--branco-principal)
+}
+.container__aviso {
+    font-size: 12px;
+    color: var(--cinza-secundario);
+}
+.container__imagem {
+    margin: 1em 0 2em 0;
+}
+.container__caixa {
+    margin: 0 6em;
+}
+.secundarioimagem {
+    Width: 498px;
+    Height: 560px;
+    Top: 775px;
+    Left: 165px;
+}
+.containersecundario {
+    display: flex;
+    align-items: center;
+    margin: 0 10em;
+}
+.descricaotitulo {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+    top: 935px;
+    left: 732px;
+}
+.descricaotexto {
+    color: var(--cinza-secundario);
+    top: 998px;
+    left: 732px;
+}
+.secundario__botao{
+    display: inline-block;
+    margin-top: 1em;
+}
+.container__descricao {
+    padding: 2em;
 }
